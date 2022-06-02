@@ -39,7 +39,7 @@ int Method3()
     return DateTime.Now.Year;
 }
 int year = Method3();
-Console.WriteLine(year);
+//Console.WriteLine(year);
 
 
 // вид метода 4
@@ -47,7 +47,7 @@ Console.WriteLine(year);
 string Method4(int count, string text)
 {
     int i = 0;
-    string result="";
+    string result = "";
     //string result12=String.Empty; //string result=""; просто пусто
     while (i < count)
     {
@@ -58,6 +58,21 @@ string Method4(int count, string text)
 }
 
 string res = Method4(10, "qwer");
-Console.WriteLine(res);
+//Console.WriteLine(res);
 //  бред какой-то не понимаю что не так бред какой-то !!!разобрался!!! тип метода был неверным
 
+
+// вид метода 4.5
+// принимает и выдает
+string Method45(int count, string text)
+{
+    string result = String.Empty;
+    for (int i = 0; i < count; i++)
+    {
+        result = result + text;
+    }
+    return result;
+}
+
+string res45 = Method4(10, "qwer");
+Console.WriteLine(res45);
