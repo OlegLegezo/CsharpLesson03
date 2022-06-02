@@ -44,20 +44,20 @@ Console.WriteLine(year);
 
 // вид метода 4
 // принимает и выдает
-// int Method4(int count, string text)
-// {
-//     int i = 0;
-//     string result="";
-//     //string result12=String.Empty; //string result=""; просто пусто
-//     while (i < count)
-//     {
-//         result = result + text;
-//         i++;
-//     }
-//     return result;
-// }
+string Method4(int count, string text)
+{
+    int i = 0;
+    string result="";
+    //string result12=String.Empty; //string result=""; просто пусто
+    while (i < count)
+    {
+        result = result + text;
+        i++;
+    }
+    return result;
+}
 
-// string res = Method4(10, "qwer");
-// Console.WriteLine(result);
-//  бред какой-то не понимаю что не так бред какой-то
+string res = Method4(10, "qwer");
+Console.WriteLine(res);
+//  бред какой-то не понимаю что не так бред какой-то !!!разобрался!!! тип метода был неверным
 
